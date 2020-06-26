@@ -5,7 +5,7 @@ import string
 from nltk.stem.snowball import SnowballStemmer
 import os
 import pickle
-from gsdmm import MovieGroupProcess
+from gsdmm import MovieGroupProcess #This can be found here: https://github.com/rwalk/gsdmm
 
 #this calculates the topic model and will take some time to process
 source_path= os.getcwd()
